@@ -136,6 +136,11 @@ main{
     width: 100%;
 
 } */
+.Team_name{
+    font-size: 85px;
+        margin: 0px 463px;
+        text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
+}
 footer{
     /* height: 160px;
     position: relative;
