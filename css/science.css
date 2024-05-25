@@ -1,0 +1,127 @@
+/*dark:#A535C
+lead:#4ECDC4
+sec1:#FF6B6B
+sec2:#FFE66D
+backdrop:#F7FFFF*/
+
+
+
+.code{
+    color:red;
+    font-weight:800;
+}
+.svg{
+    height:80vh;
+}
+.row .col:nth-child(2){
+    background-image:url('https://www.norderbergs.com/storage/2020/09/background-shapes-png-1-Images-PNG-Transparent-300x300.png');
+    background-size: 100%;
+    background-position:center center;
+    display:flex;
+    background-repeat:no-repeat;
+    justify-content:center;
+    flex-direction:column;
+    align-items:center;
+}
+#home {
+margin:0px;
+padding-top:0px;
+}
+.row .col:nth-child(2){
+width: 65%;
+text-align:center;
+}
+.jumbotron{
+    margin:0px;
+    padding:0px;
+}
+@media screen and (max-width: 768px) {
+.row .col:nth-child(1){
+    display:none;
+}
+#carouselExampleIndicators
+{
+display:none;
+}
+.row .col:nth-child(2){
+    background-size:130%;
+    height:80vh;
+}
+}
+.man{
+    height: 30vh;
+    width:30vh;
+    border-radius:100%;
+}
+.card{
+    border:none !important;
+}
+.card-header{
+background-color:#F7FFFF !important;
+border:none !important;
+}
+ .navbar{
+    position:sticky !important;
+    top:0 !important;
+} 
+#skills .jumbotron{
+    background-color: #F7FFFF !important;
+    padding: 1000px !important;
+}
+.heading:hover{
+    text-shadow:5vh 5vh #FFE66D;
+}
+.heading{
+    /* align-self:center; */
+    /* padding-top:10vh;
+    padding-bottom:10vh; */
+    text-align:center;
+    font-weight:800;
+    font-size:10vh;
+    box-shadow:none;
+    transition:box-shadow 1s;
+}
+.skillsIllus{
+    display:flex;
+    justify-content:center;
+}
+.skillsIllus img{
+    width:80%;
+}
+/* @media screen and (max-width:860px){/768px to 860px makes responsiveness of our website much much better-->/
+    .skillsIllus{
+        display:none;
+    }
+    .row .col-xs-12 ul{
+        margin:25px;
+    }
+    .padrem{
+        text-align:right;
+    }
+} */
+/* .formDiv{
+    display:flex;
+    flex-direction:column;
+    justify-content:space-evenly;
+    align-items:center;
+    height:100%;
+}
+.divContact{
+    margin:5vw;
+    padding:3vw;
+} */
+/* .contactSvg{
+    width:100%;
+} */
+
+.card{
+    box-shadow: 3px 3px 50px grey;
+}
+.grid{
+    display:grid;
+    grid-template-columns:1fr;
+}
+.contai{
+    margin:5vw;
+    margin-top:0px;
+}

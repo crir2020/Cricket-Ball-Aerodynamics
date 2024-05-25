@@ -1,0 +1,131 @@
+/* * {
+    margin: 0.5;
+    padding: 0;
+    box-sizing: border-box;
+} */
+body{
+    background-color: rgb(211, 241, 151);
+}
+
+
+div {
+    display: inline-block;
+}
+
+.prince {
+    color: rgb(11, 8, 8);
+    width: 1200px;
+    /* text-align: center; */
+    margin-left: 179px;
+    text-align: justify;
+    font-size: 25px;
+}
+
+._prince {
+    color: rgb(39, 28, 28);
+    text-align: center;
+    margin-top: 175px;
+    padding-bottom: 4px;
+    font-size: 150px;
+    border: 2px solid red;
+    background: rgb(182, 213, 240);
+    width: 90%;
+    margin-left: 75px;
+    border-radius: 19px;
+}
+
+.parag {
+    margin: 20px 100px 100px 100px;
+    padding: 59px;
+    display: scroll;
+    text-align: justify;
+    word-spacing: 6px;
+    line-height: 50px;
+    letter-spacing: 1px;
+    color: black;
+    font-size: 33px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight: 835;
+
+}
+
+
+
+
+
+.akram{
+   width: 100%;
+   height: 600px;
+
+}
+.akram1{
+    width: 100%;
+    height: 600px;
+    /* border: solid #5B6DCD 10px; */
+    border: 0px 30px 0px 30px;
+ }
+ .sand,shahid{
+    width: 626px;
+    margin-left: 243px;
+    color: red;
+ }
+ .Dennis{
+    
+        width: 90%;
+        height: 427px;
+        margin-left: 69px;
+        color: red;
+border: 3px solid black;
+
+ }
+ .Nawaz{
+    margin-left: 498px;
+    color: red;
+border: 3px solid black;
+
+ }
+.Dennis1{
+    width: 638px;
+margin-left: 300px;
+margin-top: 0px;
+color: red;
+/* border: 2px solid rgb(26, 31, 35); */
+}
+.Wasim{
+    margin-top: 0px;
+    width: 1193px;
+    color: red;
+}
+.shahid{
+    margin-top: 0px;
+        width: 300px;
+        margin-top: 0px;
+        margin-left: 460px;
+        color: red;
+border: 3px solid black;
+
+}
+.shahid1{
+    margin-top: 0px;
+margin-left: 127px;
+color: red;
+}
+.sand{
+    margin-top: 0px;
+    margin-left: 305px;
+    color: red;
+border: 3px solid black;
+
+}
+.sand1{
+    margin-top: 0px;
+    margin-left: -26px;
+    color: red;
+}
+.Steyn{
+    margin-top: 0px;
+margin-left:55px;
+color: red;
+}
+

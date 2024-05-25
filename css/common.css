@@ -1,0 +1,260 @@
+
+
+.sticky {
+    position: fixed;
+    top: 1;
+    width: 100%;
+    z-index: 900;
+}
+.navbar {
+    background-color: black;
+    color: white;
+    /* border-radius: 20px; */
+    padding: 12px;
+    height: 48px;
+    margin-top: -10px;
+    margin-left: -10px;
+    margin-right: 5px;
+    /* margin-bottom: -600px; */
+}
+.navbar ul {
+    /* overflow: auto; */
+    margin: auto;
+}
+.navbar li {
+    float: right;
+    list-style: none;
+    margin: 13px, 20px;
+}
+.navbar-menu {
+    padding-left: 45px;
+    padding-right: 45px;
+    text-decoration: none;
+    font-size: x-large;
+    color: white;
+}
+.navbar a b {
+    float: left;
+    font-size: xx-large;
+    color: white;
+}
+.navbar a b:hover {
+    color: red;
+}
+.navbar a:hover {
+    background-color: rgb(252, 51, 51);
+    border-radius: 55px;
+}
+.dropdown {
+    display: none;
+}
+.navbar ul li:hover .dropdown {
+    width: auto;
+    height: auto;
+    display: block;
+    position: relative;
+    background: black;
+    color: white;
+    margin-top: 15px;
+    margin-left: 15px;
+    overflow: hidden;
+}
+.navbar ul li:hover .dropdown ul {
+    width: 150px;
+    display: block;
+    margin: 10px;
+    padding-right: 50px;
+}
+.navbar ul li:hover .dropdown ul li {
+    width: 90px;
+    border-bottom: 2px dotted white;
+    background: transparent;
+    border-radius: 0;
+    text-align: left;
+    padding: 10px;
+    padding-right: 80px;
+}
+.dropdown1 {
+    text-align: center;
+    display: flexbox;
+    font-size: x-large;
+    color: white;
+    text-decoration: none;
+}
+.navbar ul li:hover .dropdown ul li:last-child {
+    border-bottom: none;
+}
+.navbar ul li:hover .dropdown ul li a:hover {
+    color: rgb(8, 49, 255);
+}
+ .navbar-menu:hover .dropdown .dropdown1 {
+    color: rgb(85, 0, 255);
+} 
+.dropdown1:hover {
+    padding: 10px;
+     color: rgb(14, 212, 247); 
+}
+.flex {
+    margin: 60px;
+    position: fixed;
+    z-index: 2;
+    animation: anim 10s ease-in-out infinite 0s;
+}
+ @keyframes anim {
+     0% {
+         width: 122px;
+         height: 122px;
+
+    
+ }
+ 100% {
+     width: 150px;
+     height: 150px;
+ }
+}
+div {
+    display: inline-block;
+}
+/* 
+main{
+    margin-bottom: -120px;
+} */
+/*
+.prince{
+    color: red;
+    width: 1200px;
+    margin-left: 200px;
+}
+._prince{
+    color: red;
+    text-align: center;
+} */
+
+/* .bar {
+    background-color: black;
+    height: 10vh;
+    width: 100%;
+
+} */
+footer{
+    /* height: 160px;
+    position: relative;
+    width: 100%;
+    background:#3586ff;
+    min-height: 100px;
+    padding: 20px 50 px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 0px;
+     */
+     height: 160px;
+    position: relative;
+    width: 100%;
+    background: #3586ff;
+    min-height: 100px;
+    /* padding: 20px 50 px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* margin-left:-10px;
+    margin-right:0px;
+    margin-bottom: -10px; */
+}
+
+footer .social_icon,
+footer .menu {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0px;
+    flex-wrap: wrap;
+}
+footer .social_icon li,
+footer .menu li{
+    list-style: none; 
+}
+footer .social_icon li a
+{
+    font-size: 2em;
+    color: white;
+    margin: 0 10px;
+    display: inline-block;
+    transition: 0.5s;
+}
+footer .social_icon li a:hover{
+    transform:translateY(-10px);
+}
+footer .menu li a
+{
+    font-size: 1.5em;
+    color: white;
+    margin: 0 10px;
+    display: inline-block;
+    transition: 0.5s;
+    text-decoration: none;
+    opacity: 0.75;
+}
+footer .menu li a:hover{
+    opacity: 1;
+}
+footer p{
+    color: white;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-size: 2.1em;
+} 
+footer .wave{
+    position: absolute;
+    top: -100px;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    background:  url(/Image/wave.png);
+    background-size: 1000px 100px;
+} 
+footer .wave#wave1{
+    z-index: 500;
+    opacity: 1;
+    bottom: 0;
+    animation: animatewave 4s linear infinite;
+}
+footer .wave#wave2{
+    z-index: 499;
+    opacity: 0.5;
+    bottom: 10px;
+    animation: animatewave_02 4s linear infinite;
+}
+footer .wave#wave3{
+    z-index: 500;
+    opacity: 0.2;
+    bottom: 15px;
+    animation: animatewave 3s linear infinite;
+}
+footer .wave#wave4{
+    z-index: 499;
+    opacity: 0.7;
+    bottom: 20px;
+    animation: animatewave_02 3s linear infinite;
+}
+@keyframes animatewave{
+    0%{
+        background-position-x: 1000px;
+    }
+    100%{
+        background-position-x: 0px;
+    }
+}
+@keyframes animatewave_02{
+    0%{
+        background-position-x: 0px;
+    }
+    100%{
+        background-position-x: 1000px;
+    }
+}
+

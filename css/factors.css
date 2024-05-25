@@ -1,0 +1,64 @@
+/*dark:#A535C
+lead:#4ECDC4
+sec1:#FF6B6B
+sec2:#FFE66D
+backdrop:#F7FFFF*/
+
+body {
+    /* background-image: url('/Image/team1.jpg'); */
+    background-color: rgb(211, 241, 151);
+    /* width: 1300px;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-color: rgb(18, 18, 227); */
+}
+
+
+
+
+.jumbotron{
+    margin:0px;
+    padding:0px;
+}
+.heading:hover{
+    text-shadow:8vh 7vh #FFE66D;
+}
+.heading{
+    /* align-self:center; */
+    /* padding-top:10vh;
+    padding-bottom:10vh; */
+    text-align:center;
+    font-weight:800;
+    font-size:10vh;
+    box-shadow:none;
+    transition:box-shadow 1s;
+}
+/* .skillsIllus{
+    display:flex;
+    justify-content:right;
+}
+.skillsIllus img{
+    width:80%;
+} */
+
+.center {
+    display: block;
+     margin-left: auto;
+    margin-right: auto; 
+    width: 50%;
+    
+    border: 3px solid black;
+    
+    
+  }
+  .center1 {
+    display: block;
+     margin-left: auto;
+    margin-right: auto; 
+    width: 50%;
+    
+    
+    
+  }
+
+

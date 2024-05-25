@@ -1,0 +1,108 @@
+body {
+    background-image: url("/Image/third.jpg");
+    background-repeat: repeat-x;
+    background: size 100% 100%;
+    background-attachment: fixed;
+}
+
+/* .colorsep{
+
+    width:200px;
+    height:670px;
+    background-color: blue;
+
+} */
+.contactinfo {
+    background-color: #B689C0;
+    width: 300px;
+    height: 450px;
+    border: 0px;
+    padding: 41px;
+    margin: -1240px;
+}
+
+.container {
+    background-color: rgb(49, 59, 39);
+    width: 800px;
+    height: 565px;
+    border: 0px;
+    padding: 65px;
+    padding-left: 300px;
+    /* margin-bottom:-100px; */
+    /* margin:50px 200px 100px ; */
+    margin-top: 50px;
+    margin-left: 200px;
+    margin-bottom: 100px;
+}
+
+.flexbutton {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 0px;
+    margin: 0px
+}
+
+.buttonmargin {
+    margin-left: 10px;
+    border-radius: 15px;
+    width: 170px;
+    height: 40px;
+    margin-top: 10px;
+}
+
+.formmargin {
+    margin-left: 50px;
+}
+
+.formpadding {
+    padding-top: 60px;
+}
+
+.flexbutton2 {
+    display: flex;
+    flex-direction: row;
+
+    padding: 0px;
+    margin: 0px
+}
+
+.formpadding {
+    padding-top: 60px;
+}
+
+.formmargin2 {
+    margin-left: 50px;
+    width: 400px;
+    border-radius: 20px;
+    padding: 7px;
+   
+}
+
+.surbox {
+    height: 50px;
+    width: 100px;
+    font-size: x-large;
+    border-radius: 10px;
+    background-color: rgb(18, 162, 123);
+}
+.surbox:hover{
+    background-color: red;
+    color: white;
+}
+/* .hero-image {
+        /* background-image: url("/Cloud_database_SVG.svg"); */
+/* background-color: #8D8DAA; */
+/* margin-left: ; */
+/* height: 500px;
+        margin top: 100px;
+        background-position: right;
+        background-repeat: no-repeat;
+        /* background-size: cover; */
+/* background-blend-mode: luminosity;
+      } */
+
+
+      .griiitr{
+          margin: 62px 0px;
+      }
