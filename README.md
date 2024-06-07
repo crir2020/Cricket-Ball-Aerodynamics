@@ -13,7 +13,7 @@ The aim of this project is to spread awareness and knowledge about the movement 
 5. Contrast swing
 6. Curveball swing
 7. Late swing
-8. Exteranl factors behind the movements
+8. External factors behind the movements
 
 ## Contributors
 
