@@ -1,3 +1,5 @@
+# Cricket ball aerodynamics
+
 ## Description
 Welcome to my project! This project delves into the fascinating principles of aerodynamics that dictate the movements of a cricket ball. For all the years of my witnessing cricket and the enthralling spectacle that is fast bowling, I found that despite the immense popularity of cricket, many fans remain unaware of the scientific principles behind fast bowling. This gap in understanding often leads to the acceptance of myths and misconceptions.
 
